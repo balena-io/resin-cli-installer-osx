@@ -1,7 +1,7 @@
 Resin CLI Installer OS X
 ------------------------
 
-The Resin CLI OS X installer.
+The [Resin CLI](https://github.com/resin-io/resin-cli) OS X installer.
 
 Prequisites
 -----------
