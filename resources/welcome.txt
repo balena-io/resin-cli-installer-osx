@@ -1,0 +1,5 @@
+Welcome to the installation of the Resin CLI tool, an advanced way to communicate with Resin.io
+
+This installer automates the process of installing NodeJS and fetching the Resin CLI from NPM.
+
+Notice that the installer will not install NodeJS if you have it already installed in your system, and accesible from the PATH.

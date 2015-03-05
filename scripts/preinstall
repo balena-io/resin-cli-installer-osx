@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Remove previous NodeJS installations
+INSTDIR=/opt/resin.io/node
+if [ -d "$INSTDIR" ]; then
+  echo "Removing $INSTDIR"
+  rm -rf $INSTDIR
+fi
+
+# If after removing /opt/resin.io/node, /usr/bin/node
+# is a broken symlink, remove it.
+NODE=/usr/bin/node
+if [[ -L "$NODE" ]] && [[ ! -a "$NODE" ]];then
+  echo "Removing broken symlink: $NODE"
+  rm -f $NODE
+fi
