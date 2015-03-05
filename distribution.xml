@@ -8,7 +8,7 @@
 		<background file="background.png" alignment="bottomleft" mime-type="image/png" />
 
 		<!-- Define documents displayed at various steps -->
-		<welcome file="welcome.txt"	mime-type="text/plain" />
+		<welcome file="welcome.txt" mime-type="text/plain" />
 		<license file="license.txt" mime-type="text/plain" />
 		<conclusion file="conclusion.txt" mime-type="text/plain" />
 
@@ -22,7 +22,7 @@
 
 		<!-- Define each choice above -->
 		<choice
-        customLocation="/opt/resin.io/node"
+				customLocation="/opt/resin.io/node"
 				id="io.resin.node"
 				visible="false"
 				title="Resin CLI"
