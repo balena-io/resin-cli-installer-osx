@@ -3,8 +3,8 @@ Resin CLI Installer OS X
 
 The [Resin CLI](https://github.com/resin-io/resin-cli) OS X installer.
 
-Prequisites
------------
+Prequisites for building
+------------------------
 
 - OS X.
 - `curl`
