@@ -1,4 +1,4 @@
-all: build/resin-cli-setup.pkg
+all: build/resin-cli.dmg
 
 NODE_VERSION=0.12.0
 NODE_PACKAGE=node-v$(NODE_VERSION)-darwin-x64
@@ -27,6 +27,13 @@ build/resin-cli-setup.pkg: build/node.pkg distribution.xml
 		--package-path `dirname $<` \
 		--version $(RESIN_VERSION) \
 		$@
+
+build/README.pdf:
+	curl "http://gitprint.com/resin-io/resin-cli/?download" -o $@
+
+build/resin-cli.dmg: appdmg.json build/resin-cli-setup.pkg build/README.pdf
+	rm -f $@
+	appdmg $< $@
 
 clean:
 	rm -rf build/

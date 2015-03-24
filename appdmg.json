@@ -1,0 +1,10 @@
+{
+  "title": "Resin CLI",
+  "background": "images/dmg-background.png",
+  "icon": "images/dmg-icon.icns",
+  "icon-size": 80,
+  "contents": [
+    { "x": 222, "y": 235, "type": "file", "path": "build/resin-cli-setup.pkg" },
+    { "x": 337, "y": 236, "type": "file", "path": "build/README.pdf" }
+  ]
+}

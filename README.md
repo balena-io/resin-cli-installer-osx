@@ -7,7 +7,8 @@ Prequisites for building
 ------------------------
 
 - OS X.
-- `curl`
+- curl.
+- [appdmg](https://www.npmjs.com/package/appdm://www.npmjs.com/package/appdmg).
 
 Building
 --------
