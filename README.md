@@ -15,7 +15,7 @@ Prequisites for building
 Building
 --------
 
-Running `make` will create an installer into `build/resin-cli-setup.pkg`:
+Running `make` will create an installer into `build/resin-cli.dmg`:
 
 ```sh
 $ make
